@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- font family  -->
+        <!-- eb-garamond -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- poppins -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <!-- tailwind style  -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- tailwind custom color -->
+        <!-- font awasom -->
+        <script src="https://kit.fontawesome.com/027f4b2125.js" crossorigin="anonymous"></script>
+        
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    
+                  }
+                }
+              }
+            }
+          </script>
+        <style>
+            .font-eb-Garamond{
+                font-family: 'EB Garamond', serif;
+            }
+            .font-poppins{
+                font-family: 'Poppins', sans-serif;
+            }
+        </style>
+</head>
+<body class="bg-white">
+    <header class="container mx-auto">
+        <nav class="flex justify-between items-center py-9 flex-col lg:flex-row space-y-9 lg:space-y-0">
+            <div>
+                <img src="images/logo2.png" alt="">
+            </div>
+            <div>
+                <ul class="flex font-poppins text-[#707070] space-x-12">
+                    <li><a href="">Home</a></li> 
+                    <li><a href="">Services</a><i class="fa-solid ml-4 fa-greater-than"></i></li>
+                    <li><a href="">Cases</a><i class="fa-solid ml-4 fa-greater-than"></i></li>
+                    <li><a href="">Blog</a><i class="fa-solid ml-4 fa-greater-than"></i></li>
+                    <li><a href="">Contact</a><i class="fa-solid ml-4 fa-greater-than"></i></li>
+                </ul>
+            </div>
+            <div>
+                <button class="bg-[#b68c5a] px-8 py-4 rounded-xl text-[#fff] text-[18px] font-bold"> Free Consultation</button>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+</body>
+</html>
